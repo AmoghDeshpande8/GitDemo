@@ -12,4 +12,9 @@ public class MessageController {
     public String getMessage() {
         return "Hello from Main Conflift Try Nayan Branch";
     }
+
+    @GetMapping("/msg")
+    public String getName() {
+        return "Hello from Main Conflict----- Try Nayan Branch";
+    }
 }

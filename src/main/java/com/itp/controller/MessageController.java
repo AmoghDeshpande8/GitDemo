@@ -10,6 +10,6 @@ public class MessageController {
 
     @GetMapping("/msg")
     public String getMessage() {
-        return "Hello from amogh branch";
+        return "Hello from Main Conflift Try ding ding";
     }
 }
